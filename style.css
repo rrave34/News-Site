@@ -31,6 +31,16 @@ header {
   justify-content: space-between;
 }
 
+header .desktop-nav a:hover,
+header .desktop-nav a:focus {
+    color:var(--soft-red);
+    transition: color 0.3 ease;
+}
+.featured-new-description button:hover {
+    background-color: hsl(5,85%,53%);
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
 .hamburger-menu-wrapper {
   display: none;
 }
@@ -201,6 +211,10 @@ section#news-bottom {
 
   .new-body {
     flex: 2;
+  }
+
+  body.menu .open {
+    overflow: hidden;
   }
 
   header .desktop-nav {
