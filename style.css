@@ -51,7 +51,17 @@ header .desktop-nav a:focus {
   border-radius: 6px;
   margin-bottom: 8px;
 }
+button, a {
+  transition: all 0.3s ease;
+}
 
+button:hover, a:hover {
+  
+transform: scale(0.5s);
+  color: var(--soft-red);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ cursor: pointer;
+}
 
  
 header .hamburger-menu-open {
